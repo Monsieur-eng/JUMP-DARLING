@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undertale Runner - Évitez les "Je vous aime"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>UNDERTALE RUNNER</h1>
+            <div class="score">Score: <span id="score">0</span></div>
+        </div>
+        
+        <div class="game-area" id="gameArea">
+            <div class="character" id="character">
+                <div class="character-body">
+                    <div class="character-head">
+                        <div class="eyes">
+                            <div class="eye left-eye"></div>
+                            <div class="eye right-eye"></div>
+                        </div>
+                        <div class="mouth">
+                            <div class="teeth">
+                                <div class="tooth"></div>
+                                <div class="tooth"></div>
+                                <div class="tooth"></div>
+                                <div class="tooth"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="character-legs">
+                        <div class="leg left-leg"></div>
+                        <div class="leg right-leg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="jumpBtn" class="jump-button">SAUTER</button>
+            <p>Appuyez sur ESPACE ou cliquez sur SAUTER pour éviter les "Je vous aime"</p>
+        </div>
+        
+        <div class="game-over" id="gameOver">
+            <h2>GAME OVER</h2>
+            <p>Vous avez été touché par l'amour !</p>
+            <p>Score final: <span id="finalScore">0</span></p>
+            <button id="restartBtn">RECOMMENCER</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
